@@ -12,7 +12,12 @@ module LuciansLusciousLasagna
 let expectedMinutesInOven = 40//mins
 
 
-// test //
+///<summary>
+/// <see cref="">Task 2</see>
+/// Define the remainingMinutesInOven function that takes the actual minutes the lasagna has been in the oven as a parameter and returns how many minutes the lasagna still has to remain in the oven, based on the expected time oven time in minutes from the previous task.
+/// </summary>
+/// <param name="timePerLayer">Time that the food takes to be prepaired</param>
+/// <returns>An integer representing the preporation time.</returns>
 let timePerLayer = 2 //mins
 
 // TODO: define the 'remainingMinutesInOven' function
