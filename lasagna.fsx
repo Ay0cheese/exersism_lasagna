@@ -28,10 +28,12 @@ let timePerLayer = 2 //mins
 /// <returns>A function with a init argument 'elapsedTimeInOven' which is the sum of an init expression 'expectedMinutesInOven' minus another init expression 'elapsedTimeInOven'</returns>
 let remainingMinutesInOven elapsedTimeInOven = expectedMinutesInOven - elapsedTimeInOven
 
-// let result = remainingMinutesInOven 40
-// printfn "(remainingMinutesInOven 40 30) %i" result
-
-// TODO: define the 'preparationTimeInMinutes' function
+///<summary>
+/// <see cref="">Task 3</see>
+/// Define the preparationTimeInMinutes function that takes the number of layers you added to the lasagna as a parameter and returns how many minutes you spent preparing the lasagna, assuming each layer takes you 2 minutes to prepare.
+/// </summary>
+/// <param name="preparationTimeInMinutes">Time that the food has been in the oven</param>
+/// <returns>A function with a init argument 'preparationTimeInMinutes' which is the sum of an init expression 'numberOfLayers' times another init expression 'timePerLayer'.</returns>
 let preparationTimeInMinutes numberOfLayers = numberOfLayers * timePerLayer
 
 
