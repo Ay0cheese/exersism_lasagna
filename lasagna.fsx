@@ -20,8 +20,12 @@ let expectedMinutesInOven = 40//mins
 /// <returns>An integer representing the preporation time.</returns>
 let timePerLayer = 2 //mins
 
-// TODO: define the 'remainingMinutesInOven' function
-// This function takes the elapsed minutes and it substracts that value from the expected minutes
+///<summary>
+/// <see cref="">Task 2</see>
+/// Define the remainingMinutesInOven function that takes the actual minutes the lasagna has been in the oven as a parameter and returns how many minutes the lasagna still has to remain in the oven, based on the expected time oven time in minutes from the previous task.
+/// </summary>
+/// <param name="remainingMinutesInOven">How much time is left for the food to cook in the oven</param>
+/// <returns>A function with a init argument 'elapsedTimeInOven' which is the sum of an init expression 'expectedMinutesInOven' minus another init expression 'elapsedTimeInOven'</returns>
 let remainingMinutesInOven elapsedTimeInOven = expectedMinutesInOven - elapsedTimeInOven
 
 // let result = remainingMinutesInOven 40
